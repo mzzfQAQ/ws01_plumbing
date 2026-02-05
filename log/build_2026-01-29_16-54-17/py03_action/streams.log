@@ -1,0 +1,25 @@
+[0.467s] Invoking command in '/home/lrm/ws01_plumbing/src/py03_action': CMAKE_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws01_plumbing/install/cpp03_action:/home/lrm/ws01_plumbing/install/cpp02_service:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/wit_ros2_imu_ws/install/imu_msg:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp PYTHONPATH=/home/lrm/ws01_plumbing/build/py03_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lrm/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py03_action build --build-base /home/lrm/ws01_plumbing/build/py03_action/build install --record /home/lrm/ws01_plumbing/build/py03_action/install.log --single-version-externally-managed install_data
+[0.650s] running egg_info
+[0.650s] writing ../../build/py03_action/py03_action.egg-info/PKG-INFO
+[0.650s] writing dependency_links to ../../build/py03_action/py03_action.egg-info/dependency_links.txt
+[0.650s] writing entry points to ../../build/py03_action/py03_action.egg-info/entry_points.txt
+[0.650s] writing requirements to ../../build/py03_action/py03_action.egg-info/requires.txt
+[0.650s] writing top-level names to ../../build/py03_action/py03_action.egg-info/top_level.txt
+[0.652s] reading manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+[0.652s] writing manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+[0.652s] running build
+[0.652s] running build_py
+[0.652s] copying py03_action/demo01_action_server_py.py -> /home/lrm/ws01_plumbing/build/py03_action/build/lib/py03_action
+[0.653s] running install
+[0.653s] running install_lib
+[0.653s] copying /home/lrm/ws01_plumbing/build/py03_action/build/lib/py03_action/demo01_action_server_py.py -> /home/lrm/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action
+[0.654s] byte-compiling /home/lrm/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action/demo01_action_server_py.py to demo01_action_server_py.cpython-310.pyc
+[0.654s] running install_data
+[0.654s] running install_egg_info
+[0.656s] removing '/home/lrm/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action-0.0.0-py3.10.egg-info' (and everything under it)
+[0.657s] Copying ../../build/py03_action/py03_action.egg-info to /home/lrm/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action-0.0.0-py3.10.egg-info
+[0.657s] running install_scripts
+[0.673s] Installing demo01_action_server_py script to /home/lrm/ws01_plumbing/install/py03_action/lib/py03_action
+[0.673s] Installing demo02_action_client_py script to /home/lrm/ws01_plumbing/install/py03_action/lib/py03_action
+[0.673s] writing list of installed files to '/home/lrm/ws01_plumbing/build/py03_action/install.log'
+[0.696s] Invoked command in '/home/lrm/ws01_plumbing/src/py03_action' returned '0': CMAKE_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws01_plumbing/install/cpp03_action:/home/lrm/ws01_plumbing/install/cpp02_service:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/wit_ros2_imu_ws/install/imu_msg:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp PYTHONPATH=/home/lrm/ws01_plumbing/build/py03_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lrm/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py03_action build --build-base /home/lrm/ws01_plumbing/build/py03_action/build install --record /home/lrm/ws01_plumbing/build/py03_action/install.log --single-version-externally-managed install_data

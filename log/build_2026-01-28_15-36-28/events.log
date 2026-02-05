@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000860] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000929] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000954] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000995] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.001012] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.001028] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.001044] (cpp03_action) JobQueued: {'identifier': 'cpp03_action', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/lrm/ws01_plumbing/install/base_interfaces_demo')])}
+[0.001068] (cpp03_action) JobStarted: {'identifier': 'cpp03_action'}
+[0.012692] (cpp03_action) JobProgress: {'identifier': 'cpp03_action', 'progress': 'cmake'}
+[0.013316] (cpp03_action) JobProgress: {'identifier': 'cpp03_action', 'progress': 'build'}
+[0.014145] (cpp03_action) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lrm/ws01_plumbing/build/cpp03_action', '--', '-j16', '-l16'], 'cwd': '/home/lrm/ws01_plumbing/build/cpp03_action', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lrm'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lrm/ws01_plumbing/install/base_interfaces_demo/lib:/home/lrm/ws00_helloworld/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lrm'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/lrm'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1676'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2281'), ('BUNDLED_DEBUGPY_PATH', '/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5029'), ('COLCON_PREFIX_PATH', '/home/lrm/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lrm'), ('JOURNAL_STREAM', '8:18173'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lrm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lrm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lrm-Lenovo-Legion-R9000X2021R:@/tmp/.ICE-unix/2039,unix/lrm-Lenovo-Legion-R9000X2021R:/tmp/.ICE-unix/2039'), ('INVOCATION_ID', '66d4ff0717ca44d59f676d53ecc1d4d6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0fa11d47707f9c0e.txt'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/lrm/.config/Code/User/workspaceStorage/ab098c9f6a670ab9e4dc1c4b5e2cccef/ms-python.python/pythonrc.py'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4e7e390f9c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:71794598-9b9f-4b51-a968-0cd9f9a245ea'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lrm/ws01_plumbing/build/cpp03_action'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lrm/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/home/lrm/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble')]), 'shell': False}
+[0.099685] (-) TimerEvent: {}
+[0.102426] (cpp03_action) StdoutLine: {'line': b'[ 75%] Built target demo02_action_client\n'}
+[0.103072] (cpp03_action) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o\x1b[0m\n'}
+[0.199862] (-) TimerEvent: {}
+[0.300533] (-) TimerEvent: {}
+[0.401291] (-) TimerEvent: {}
+[0.501904] (-) TimerEvent: {}
+[0.602676] (-) TimerEvent: {}
+[0.703206] (-) TimerEvent: {}
+[0.804468] (-) TimerEvent: {}
+[0.905157] (-) TimerEvent: {}
+[1.005849] (-) TimerEvent: {}
+[1.106427] (-) TimerEvent: {}
+[1.206894] (-) TimerEvent: {}
+[1.307442] (-) TimerEvent: {}
+[1.407996] (-) TimerEvent: {}
+[1.508590] (-) TimerEvent: {}
+[1.609130] (-) TimerEvent: {}
+[1.710049] (-) TimerEvent: {}
+[1.810630] (-) TimerEvent: {}
+[1.912156] (-) TimerEvent: {}
+[2.012741] (-) TimerEvent: {}
+[2.113448] (-) TimerEvent: {}
+[2.214063] (-) TimerEvent: {}
+[2.314671] (-) TimerEvent: {}
+[2.415279] (-) TimerEvent: {}
+[2.515914] (-) TimerEvent: {}
+[2.616428] (-) TimerEvent: {}
+[2.717063] (-) TimerEvent: {}
+[2.817880] (-) TimerEvent: {}
+[2.918624] (-) TimerEvent: {}
+[3.019316] (-) TimerEvent: {}
+[3.119879] (-) TimerEvent: {}
+[3.220536] (-) TimerEvent: {}
+[3.321106] (-) TimerEvent: {}
+[3.421657] (-) TimerEvent: {}
+[3.522224] (-) TimerEvent: {}
+[3.536802] (cpp03_action) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.537439] (cpp03_action) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.537634] (cpp03_action) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.537749] (cpp03_action) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.537850] (cpp03_action) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.537932] (cpp03_action) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.538046] (cpp03_action) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.538167] (cpp03_action) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.538275] (cpp03_action) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.538359] (cpp03_action) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.538436] (cpp03_action) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:24\x1b[m\x1b[K:\n'}
+[3.538522] (cpp03_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:70:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kdo\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.538613] (cpp03_action) StderrLine: {'line': b'   70 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(),"\xe6\x8f\x90\xe4\xba\xa4\xe7\x9a\x84\xe5\x80\xbc\xe5\x90\x88\xe6\xb3\x95");\n'}
+[3.538702] (cpp03_action) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.538787] (cpp03_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:70:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kwhile\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.538876] (cpp03_action) StderrLine: {'line': b'   70 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(),"\xe6\x8f\x90\xe4\xba\xa4\xe7\x9a\x84\xe5\x80\xbc\xe5\x90\x88\xe6\xb3\x95");\n'}
+[3.538958] (cpp03_action) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.539051] (cpp03_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:71:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.539129] (cpp03_action) StderrLine: {'line': b'   71 |         \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;\n'}
+[3.539197] (cpp03_action) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.556759] (cpp03_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KProgressActionServer::ProgressActionServer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.557285] (cpp03_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:47:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserver_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.557441] (cpp03_action) StderrLine: {'line': b'   47 |         \x1b[01;31m\x1b[Kserver_\x1b[m\x1b[K = rclcpp_action::create_server<Progress>(\n'}
+[3.557529] (cpp03_action) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.566700] (cpp03_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:51:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khandle_cancel\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KProgressActionServer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.567021] (cpp03_action) StderrLine: {'line': b'   51 |             std::bind(&ProgressActionServer::\x1b[01;31m\x1b[Khandle_cancel\x1b[m\x1b[K,this,_1),\n'}
+[3.567105] (cpp03_action) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.567165] (cpp03_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:52:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khandle_accepted\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KProgressActionServer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.567238] (cpp03_action) StderrLine: {'line': b'   52 |             std::bind(&ProgressActionServer::\x1b[01;31m\x1b[Khandle_accepted\x1b[m\x1b[K,this,_1)\n'}
+[3.567289] (cpp03_action) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.581833] (cpp03_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse ProgressActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const base_interfaces_demo::action::Progress_Goal_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.582205] (cpp03_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:65:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.582399] (cpp03_action) StderrLine: {'line': b'   65 |         if(\x1b[01;31m\x1b[Kgoal\x1b[m\x1b[K->num <= 1){\n'}
+[3.582526] (cpp03_action) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.582700] (cpp03_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.582815] (cpp03_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:78:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Khandle_cancel\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.582944] (cpp03_action) StderrLine: {'line': b'   78 |     rclcpp_action::CancelResponse \x1b[01;31m\x1b[Khandle_cancel\x1b[m\x1b[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>> goal_handle)\n'}
+[3.583042] (cpp03_action) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.587636] (cpp03_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.587972] (cpp03_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:88:85:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.588157] (cpp03_action) StderrLine: {'line': b'   88 |     void handle_accepted(\x1b[01;35m\x1b[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>> goal_handle\x1b[m\x1b[K)\n'}
+[3.588236] (cpp03_action) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.588291] (cpp03_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.588348] (cpp03_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:96:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.588419] (cpp03_action) StderrLine: {'line': b'   96 | \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[3.588498] (cpp03_action) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.588550] (cpp03_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:98:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.588620] (cpp03_action) StderrLine: {'line': b'   98 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[3.588687] (cpp03_action) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.622403] (-) TimerEvent: {}
+[3.723388] (-) TimerEvent: {}
+[3.825763] (-) TimerEvent: {}
+[3.926647] (-) TimerEvent: {}
+[4.027404] (-) TimerEvent: {}
+[4.127917] (-) TimerEvent: {}
+[4.228519] (-) TimerEvent: {}
+[4.321936] (cpp03_action) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo01_action_server.dir/build.make:76\xef\xbc\x9aCMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[4.322286] (cpp03_action) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/demo01_action_server.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.322830] (cpp03_action) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.327766] (cpp03_action) CommandEnded: {'returncode': 2}
+[4.328645] (-) TimerEvent: {}
+[4.341698] (cpp03_action) JobEnded: {'identifier': 'cpp03_action', 'rc': 2}
+[4.353361] (-) EventReactorShutdown: {}

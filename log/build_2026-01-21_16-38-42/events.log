@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000649] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000688] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000713] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/lrm/ws01_plumbing/install/base_interfaces_demo')])}
+[0.000739] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.009206] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.009688] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[0.010283] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lrm/ws01_plumbing/build/cpp01_topic', '--', '-j16', '-l16'], 'cwd': '/home/lrm/ws01_plumbing/build/cpp01_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lrm'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lrm/ws01_plumbing/install/base_interfaces_demo/lib:/home/lrm/ws00_helloworld/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lrm'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1593'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1861'), ('BUNDLED_DEBUGPY_PATH', '/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2716'), ('COLCON_PREFIX_PATH', '/home/lrm/ws01_plumbing/install:/home/lrm/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lrm'), ('JOURNAL_STREAM', '8:19428'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lrm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/lrm/.local/bin:/opt/ros/humble/bin:/home/lrm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lrm-Lenovo-Legion-R9000X2021R:@/tmp/.ICE-unix/1834,unix/lrm-Lenovo-Legion-R9000X2021R:/tmp/.ICE-unix/1834'), ('INVOCATION_ID', '034de6ec6bca4c30a2ccaa9aacf7ab6f'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0fa11d47707f9c0e.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/lrm/.config/Code/User/workspaceStorage/ab098c9f6a670ab9e4dc1c4b5e2cccef/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4e7e390f9c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lrm/ws01_plumbing/build/cpp01_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lrm/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/home/lrm/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/lrm/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble')]), 'shell': False}
+[0.051318] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo04_listener_stu\x1b[0m\n'}
+[0.051518] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo02_listener_str\x1b[0m\n'}
+[0.051584] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo01_talker_str\x1b[0m\n'}
+[0.051881] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo03_talker_stu\x1b[0m\n'}
+[0.069267] (cpp01_topic) StdoutLine: {'line': b'[ 87%] Built target demo02_listener_str\n'}
+[0.069451] (cpp01_topic) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o\x1b[0m\n'}
+[0.069521] (cpp01_topic) StdoutLine: {'line': b'[ 87%] Built target demo04_listener_stu\n'}
+[0.069580] (cpp01_topic) StdoutLine: {'line': b'[ 87%] Built target demo01_talker_str\n'}
+[0.099830] (-) TimerEvent: {}
+[0.200144] (-) TimerEvent: {}
+[0.300457] (-) TimerEvent: {}
+[0.400840] (-) TimerEvent: {}
+[0.501190] (-) TimerEvent: {}
+[0.601473] (-) TimerEvent: {}
+[0.701811] (-) TimerEvent: {}
+[0.802186] (-) TimerEvent: {}
+[0.902458] (-) TimerEvent: {}
+[1.002730] (-) TimerEvent: {}
+[1.103010] (-) TimerEvent: {}
+[1.203310] (-) TimerEvent: {}
+[1.303615] (-) TimerEvent: {}
+[1.403968] (-) TimerEvent: {}
+[1.504293] (-) TimerEvent: {}
+[1.604645] (-) TimerEvent: {}
+[1.704997] (-) TimerEvent: {}
+[1.805319] (-) TimerEvent: {}
+[1.905622] (-) TimerEvent: {}
+[1.921506] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.921734] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.921809] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.921868] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.921925] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.921982] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.922037] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.922091] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.922143] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.922276] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.922351] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.922413] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:15\x1b[m\x1b[K:\n'}
+[1.922471] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TalkerStu::on_timer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.922527] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:44:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT* std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::c_str() const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.922585] (cpp01_topic) StderrLine: {'line': b'   44 |         RCLCPP_INFO(this->get_logger(),"\xe5\x8f\x91\xe5\xb8\x83\xe7\x9a\x84\xe6\xb6\x88\xe6\x81\xaf\xef\xbc\x9a\xef\xbc\x88%s,%d,%.2f)",\x1b[01;31m\x1b[Kstu.name.c_str\x1b[m\x1b[K,stu.age,stu.height);\n'}
+[1.922640] (cpp01_topic) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.922695] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.922747] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.922797] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.922847] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.922907] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.922956] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.923004] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.923052] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lrm/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:15\x1b[m\x1b[K:\n'}
+[1.923100] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:2320:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.923147] (cpp01_topic) StderrLine: {'line': b' 2320 |       \x1b[01;36m\x1b[Kc_str\x1b[m\x1b[K() const _GLIBCXX_NOEXCEPT\n'}
+[1.923213] (cpp01_topic) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.005713] (-) TimerEvent: {}
+[2.105993] (-) TimerEvent: {}
+[2.206302] (-) TimerEvent: {}
+[2.306625] (-) TimerEvent: {}
+[2.406993] (-) TimerEvent: {}
+[2.507295] (-) TimerEvent: {}
+[2.561532] (cpp01_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76\xef\xbc\x9aCMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[2.561765] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:195\xef\xbc\x9aCMakeFiles/demo03_talker_stu.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.562032] (cpp01_topic) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.564959] (cpp01_topic) CommandEnded: {'returncode': 2}
+[2.573367] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 2}
+[2.584131] (-) EventReactorShutdown: {}

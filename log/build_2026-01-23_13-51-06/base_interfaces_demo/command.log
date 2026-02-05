@@ -1,0 +1,2 @@
+Invoking command in '/home/lrm/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/base_interfaces_demo -- -j16 -l16
+Invoked command in '/home/lrm/ws01_plumbing/build/base_interfaces_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/base_interfaces_demo -- -j16 -l16

@@ -1,0 +1,66 @@
+[0.025s] Invoking command in '/home/lrm/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/cpp04_param -- -j16 -l16
+[0.065s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.188s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.220s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.223s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.229s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.239s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.251s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.284s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.285s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.387s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.440s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.507s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.507s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lrm/ws01_plumbing/src/cpp04_param/include>
+[0.507s] -- Configured cppcheck exclude dirs and/or files: 
+[0.508s] -- Added test 'lint_cmake' to check CMake code style
+[0.509s] -- Added test 'uncrustify' to check C / C++ code style
+[0.509s] -- Configured uncrustify additional arguments: 
+[0.509s] -- Added test 'xmllint' to check XML markup files
+[0.510s] -- Configuring done
+[0.527s] -- Generating done
+[0.533s] -- Build files have been written to: /home/lrm/ws01_plumbing/build/cpp04_param
+[0.562s] [35m[1mConsolidate compiler generated dependencies of target demo00_param[0m
+[0.576s] [ 33%] [32mBuilding CXX object CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o[0m
+[0.576s] [ 33%] [32mBuilding CXX object CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o[0m
+[0.583s] [ 50%] [32mBuilding CXX object CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o[0m
+[2.994s] [01m[K/home/lrm/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:[m[K In constructor ‘[01m[KMyParam::MyParam()[m[K’:
+[2.994s] [01m[K/home/lrm/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:37:37:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse-Wvexing-parse]8;;[m[K]
+[2.994s]    37 |         rclcpp::ParameterValue value[01;35m[K()[m[K;
+[2.994s]       |                                     [01;35m[K^~[m[K
+[2.994s] [01m[K/home/lrm/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:37:37:[m[K [01;36m[Knote: [m[Kremove parentheses to default-initialize a variable
+[2.994s]    37 |         rclcpp::ParameterValue value[01;36m[K()[m[K;
+[2.994s]       |                                     [01;36m[K^~[m[K
+[2.995s]       |                                     [31m[K--[m[K
+[2.995s] [01m[K/home/lrm/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:37:37:[m[K [01;36m[Knote: [m[Kor replace parentheses with braces to value-initialize a variable
+[3.513s] [ 83%] [32m[1mLinking CXX executable demo02_param_client[0m
+[3.513s] [ 83%] [32m[1mLinking CXX executable demo01_param_server[0m
+[3.544s] [100%] [32m[1mLinking CXX executable demo00_param[0m
+[3.676s] [100%] Built target demo02_param_client
+[3.676s] [100%] Built target demo01_param_server
+[3.704s] [100%] Built target demo00_param
+[3.716s] Invoked command in '/home/lrm/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/cpp04_param -- -j16 -l16
+[3.727s] Invoking command in '/home/lrm/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lrm/ws01_plumbing/build/cpp04_param
+[3.735s] -- Install configuration: ""
+[3.735s] -- Installing: /home/lrm/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param
+[3.736s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param" to ""
+[3.736s] -- Installing: /home/lrm/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server
+[3.736s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server" to ""
+[3.736s] -- Installing: /home/lrm/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client
+[3.737s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client" to ""
+[3.737s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[3.737s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[3.737s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[3.737s] -- Installing: /home/lrm/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[3.737s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.sh
+[3.737s] -- Installing: /home/lrm/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[3.738s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.bash
+[3.738s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.sh
+[3.738s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[3.738s] -- Installing: /home/lrm/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[3.738s] -- Installing: /home/lrm/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.dsv
+[3.738s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[3.738s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[3.738s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[3.738s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.xml
+[3.742s] Invoked command in '/home/lrm/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lrm/ws01_plumbing/build/cpp04_param

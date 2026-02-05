@@ -1,0 +1,9 @@
+[01m[K/home/lrm/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:[m[K In constructor ‘[01m[KMyParam::MyParam()[m[K’:
+[01m[K/home/lrm/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:37:37:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse-Wvexing-parse]8;;[m[K]
+   37 |         rclcpp::ParameterValue value[01;35m[K()[m[K;
+      |                                     [01;35m[K^~[m[K
+[01m[K/home/lrm/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:37:37:[m[K [01;36m[Knote: [m[Kremove parentheses to default-initialize a variable
+   37 |         rclcpp::ParameterValue value[01;36m[K()[m[K;
+      |                                     [01;36m[K^~[m[K
+      |                                     [31m[K--[m[K
+[01m[K/home/lrm/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:37:37:[m[K [01;36m[Knote: [m[Kor replace parentheses with braces to value-initialize a variable

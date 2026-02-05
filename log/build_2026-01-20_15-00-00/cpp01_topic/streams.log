@@ -1,0 +1,69 @@
+[0.009s] Invoking command in '/home/lrm/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake /home/lrm/ws01_plumbing/src/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/lrm/ws01_plumbing/install/cpp01_topic
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.114s] -- Detecting C compiler ABI info
+[0.180s] -- Detecting C compiler ABI info - done
+[0.186s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.186s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.189s] -- Detecting CXX compiler ABI info
+[0.265s] -- Detecting CXX compiler ABI info - done
+[0.272s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.272s] -- Detecting CXX compile features
+[0.272s] -- Detecting CXX compile features - done
+[0.274s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.406s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.489s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.538s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.543s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.553s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.584s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.631s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.635s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.728s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.753s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.792s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.801s] -- Looking for pthread.h
+[0.869s] -- Looking for pthread.h - found
+[0.869s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.936s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.936s] -- Found Threads: TRUE  
+[0.984s] -- Found base_interfaces_demo: 0.0.0 (/home/lrm/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.986s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.054s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.054s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lrm/ws01_plumbing/src/cpp01_topic/include>
+[1.054s] -- Configured cppcheck exclude dirs and/or files: 
+[1.055s] -- Added test 'lint_cmake' to check CMake code style
+[1.055s] -- Added test 'uncrustify' to check C / C++ code style
+[1.056s] -- Configured uncrustify additional arguments: 
+[1.056s] -- Added test 'xmllint' to check XML markup files
+[1.057s] -- Configuring done
+[1.066s] -- Generating done
+[1.068s] -- Build files have been written to: /home/lrm/ws01_plumbing/build/cpp01_topic
+[1.078s] Invoked command in '/home/lrm/ws01_plumbing/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake /home/lrm/ws01_plumbing/src/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/lrm/ws01_plumbing/install/cpp01_topic
+[1.079s] Invoking command in '/home/lrm/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/cpp01_topic -- -j16 -l16
+[1.124s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[3.414s] [100%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[3.520s] [100%] Built target demo01_talker_str
+[3.531s] Invoked command in '/home/lrm/ws01_plumbing/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/cpp01_topic -- -j16 -l16
+[3.533s] Invoking command in '/home/lrm/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lrm/ws01_plumbing/build/cpp01_topic
+[3.540s] -- Install configuration: ""
+[3.540s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[3.540s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str" to ""
+[3.541s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[3.541s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[3.541s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[3.541s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[3.541s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[3.541s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[3.542s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[3.542s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[3.542s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[3.542s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[3.542s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[3.542s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[3.543s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[3.543s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[3.543s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[3.545s] Invoked command in '/home/lrm/ws01_plumbing/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lrm/ws01_plumbing/build/cpp01_topic

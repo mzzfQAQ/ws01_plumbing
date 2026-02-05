@@ -1,0 +1,32 @@
+[0.013s] Invoking command in '/home/lrm/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/cpp01_topic -- -j16 -l16
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[0.066s] [ 25%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[0.066s] [ 37%] Built target demo02_listener_str
+[0.066s] [ 62%] Built target demo01_talker_str
+[0.071s] [ 87%] Built target demo03_talker_stu
+[6.341s] [100%] [32m[1mLinking CXX executable demo04_listener_stu[0m
+[6.606s] [100%] Built target demo04_listener_stu
+[6.618s] Invoked command in '/home/lrm/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/cpp01_topic -- -j16 -l16
+[6.630s] Invoking command in '/home/lrm/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lrm/ws01_plumbing/build/cpp01_topic
+[6.638s] -- Install configuration: ""
+[6.638s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[6.638s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str
+[6.639s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu
+[6.639s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu
+[6.643s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu" to ""
+[6.643s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[6.644s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[6.644s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[6.644s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[6.644s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[6.644s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[6.644s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[6.644s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[6.644s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[6.644s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[6.644s] -- Installing: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[6.644s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[6.644s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[6.644s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[6.644s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[6.646s] Invoked command in '/home/lrm/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lrm/ws01_plumbing/build/cpp01_topic
