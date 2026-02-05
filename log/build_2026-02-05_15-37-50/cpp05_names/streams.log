@@ -1,0 +1,29 @@
+[0.011s] Invoking command in '/home/lrm/ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/cpp05_names -- -j16 -l16
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_names.dir/src/demo01_names.cpp.o[0m
+[2.504s] [100%] [32m[1mLinking CXX executable demo01_names[0m
+[2.594s] [100%] Built target demo01_names
+[2.605s] Invoked command in '/home/lrm/ws01_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/cpp05_names -- -j16 -l16
+[2.614s] Invoking command in '/home/lrm/ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lrm/ws01_plumbing/build/cpp05_names
+[2.624s] -- Install configuration: ""
+[2.624s] -- Installing: /home/lrm/ws01_plumbing/install/cpp05_names/lib/cpp05_names/demo01_names
+[2.624s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/cpp05_names/lib/cpp05_names/demo01_names" to ""
+[2.624s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/cpp05_names/launch
+[2.624s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/cpp05_names/launch/demo01_names_launch.py
+[2.624s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/cpp05_names/launch/demo02_names_launch.xml
+[2.625s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/cpp05_names/launch/demo03_names_launch.yaml
+[2.625s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/ament_index/resource_index/package_run_dependencies/cpp05_names
+[2.625s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/ament_index/resource_index/parent_prefix_path/cpp05_names
+[2.625s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/ament_prefix_path.sh
+[2.625s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/ament_prefix_path.dsv
+[2.625s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/path.sh
+[2.625s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/path.dsv
+[2.625s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.bash
+[2.625s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.sh
+[2.625s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.zsh
+[2.625s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.dsv
+[2.625s] -- Installing: /home/lrm/ws01_plumbing/install/cpp05_names/share/cpp05_names/package.dsv
+[2.625s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/ament_index/resource_index/packages/cpp05_names
+[2.625s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/cpp05_names/cmake/cpp05_namesConfig.cmake
+[2.625s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/cpp05_names/cmake/cpp05_namesConfig-version.cmake
+[2.625s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp05_names/share/cpp05_names/package.xml
+[2.628s] Invoked command in '/home/lrm/ws01_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lrm/ws01_plumbing/build/cpp05_names
