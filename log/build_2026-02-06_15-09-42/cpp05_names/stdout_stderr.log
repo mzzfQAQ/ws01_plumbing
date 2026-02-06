@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/demo01_names.dir/src/demo01_names.cpp.o[0m
+[01m[K/home/lrm/ws01_plumbing/src/cpp05_names/src/demo01_names.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 没有那个文件或目录
+   13 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo01_names.dir/build.make:76：CMakeFiles/demo01_names.dir/src/demo01_names.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/demo01_names.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

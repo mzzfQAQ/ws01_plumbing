@@ -683,8 +683,22 @@ CMakeFiles/demo01_names.dir/src/demo01_names.cpp.o: /home/lrm/ws01_plumbing/src/
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
@@ -1180,6 +1194,8 @@ CMakeFiles/demo01_names.dir/src/demo01_names.cpp.o: /home/lrm/ws01_plumbing/src/
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp:
+
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
@@ -1639,6 +1655,8 @@ CMakeFiles/demo01_names.dir/src/demo01_names.cpp.o: /home/lrm/ws01_plumbing/src/
 /opt/ros/humble/include/rmw/rmw/visibility_control.h:
 
 /opt/ros/humble/include/rmw/rmw/macros.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
 

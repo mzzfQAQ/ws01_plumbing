@@ -1,0 +1,10 @@
+[0.011s] Invoking command in '/home/lrm/ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/cpp05_names -- -j16 -l16
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_names.dir/src/demo01_names.cpp.o[0m
+[0.258s] [01m[K/home/lrm/ws01_plumbing/src/cpp05_names/src/demo01_names.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 没有那个文件或目录
+[0.258s]    13 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[0.258s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.258s] compilation terminated.
+[0.270s] gmake[2]: *** [CMakeFiles/demo01_names.dir/build.make:76：CMakeFiles/demo01_names.dir/src/demo01_names.cpp.o] 错误 1
+[0.270s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/demo01_names.dir/all] 错误 2
+[0.270s] gmake: *** [Makefile:146：all] 错误 2
+[0.273s] Invoked command in '/home/lrm/ws01_plumbing/build/cpp05_names' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/cpp05_names -- -j16 -l16

@@ -1,0 +1,47 @@
+# 需求：编写一个ROS2节点（Python）
+# 流程：
+#     1.导包
+#     2.初始化ROS2客户端
+#     3.自定义节点类
+#     4.调用spin函数，传入自定义类对象
+#     5.释放资源
+
+# 1.导包
+import rclpy
+from rclpy.node import Node
+import threading
+
+# 3.自定义节点类
+class MyNode(Node):
+    def __init__(self):
+        super().__init__("time_node_py")
+        self.get_logger().info("time_node_py节点已启动（python）!")
+        self.demo_rate()
+
+    def demo_rate(self):
+        # 1.创建 Rate 对象
+        self.rate = self.create_rate(1.0)
+        # 2.调用 sleep 函数 --- 会导致程序阻塞
+        # while rclpy.ok():
+        #     self.get_logger().info("++++++++++++++++")
+        #     self.rate.sleep()
+
+        # 创建子线程
+        thread = threading.Thread(target=self.do_some)
+        thread.start()
+
+    def do_some(self):
+        while rclpy.ok():
+            self.get_logger().info("++++++++++++++++")
+            self.rate.sleep()
+
+def main():
+    # 2.初始化ROS2客户端
+    rclpy.init()
+    # 4.调用spin函数，传入自定义类对象
+    rclpy.spin(MyNode())
+    # 5.释放资源
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

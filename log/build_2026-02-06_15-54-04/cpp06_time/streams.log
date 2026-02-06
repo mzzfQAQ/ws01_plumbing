@@ -1,0 +1,68 @@
+[0.010s] Invoking command in '/home/lrm/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake /home/lrm/ws01_plumbing/src/cpp06_time -DCMAKE_INSTALL_PREFIX=/home/lrm/ws01_plumbing/install/cpp06_time
+[0.083s] -- The C compiler identification is GNU 11.4.0
+[0.134s] -- The CXX compiler identification is GNU 11.4.0
+[0.141s] -- Detecting C compiler ABI info
+[0.204s] -- Detecting C compiler ABI info - done
+[0.210s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.210s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.213s] -- Detecting CXX compiler ABI info
+[0.282s] -- Detecting CXX compiler ABI info - done
+[0.288s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.288s] -- Detecting CXX compile features
+[0.288s] -- Detecting CXX compile features - done
+[0.293s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.433s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.528s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.576s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.582s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.591s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.604s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.621s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.672s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.675s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.764s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.788s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.826s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.837s] -- Looking for pthread.h
+[0.901s] -- Looking for pthread.h - found
+[0.902s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.970s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.971s] -- Found Threads: TRUE  
+[1.017s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.095s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.095s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lrm/ws01_plumbing/src/cpp06_time/include>
+[1.095s] -- Configured cppcheck exclude dirs and/or files: 
+[1.095s] -- Added test 'lint_cmake' to check CMake code style
+[1.096s] -- Added test 'uncrustify' to check C / C++ code style
+[1.096s] -- Configured uncrustify additional arguments: 
+[1.097s] -- Added test 'xmllint' to check XML markup files
+[1.099s] -- Configuring done
+[1.106s] -- Generating done
+[1.108s] -- Build files have been written to: /home/lrm/ws01_plumbing/build/cpp06_time
+[1.118s] Invoked command in '/home/lrm/ws01_plumbing/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake /home/lrm/ws01_plumbing/src/cpp06_time -DCMAKE_INSTALL_PREFIX=/home/lrm/ws01_plumbing/install/cpp06_time
+[1.119s] Invoking command in '/home/lrm/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/cpp06_time -- -j16 -l16
+[1.167s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o[0m
+[3.452s] [100%] [32m[1mLinking CXX executable demo01_time[0m
+[3.547s] [100%] Built target demo01_time
+[3.557s] Invoked command in '/home/lrm/ws01_plumbing/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/cpp06_time -- -j16 -l16
+[3.568s] Invoking command in '/home/lrm/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lrm/ws01_plumbing/build/cpp06_time
+[3.574s] -- Install configuration: ""
+[3.575s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo01_time
+[3.575s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo01_time" to ""
+[3.575s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/package_run_dependencies/cpp06_time
+[3.575s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/parent_prefix_path/cpp06_time
+[3.575s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.sh
+[3.576s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.dsv
+[3.576s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/path.sh
+[3.576s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/path.dsv
+[3.576s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.bash
+[3.576s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.sh
+[3.576s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.zsh
+[3.576s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.dsv
+[3.576s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/package.dsv
+[3.577s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/packages/cpp06_time
+[3.577s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig.cmake
+[3.577s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig-version.cmake
+[3.577s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/package.xml
+[3.579s] Invoked command in '/home/lrm/ws01_plumbing/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lrm/ws01_plumbing/build/cpp06_time
