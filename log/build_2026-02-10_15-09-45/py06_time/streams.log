@@ -1,0 +1,24 @@
+[0.563s] Invoking command in '/home/lrm/ws01_plumbing/src/py06_time': PYTHONPATH=/home/lrm/ws01_plumbing/build/py06_time/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lrm/ws01_plumbing/install/py06_time/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py06_time build --build-base /home/lrm/ws01_plumbing/build/py06_time/build install --record /home/lrm/ws01_plumbing/build/py06_time/install.log --single-version-externally-managed install_data
+[0.756s] running egg_info
+[0.757s] writing ../../build/py06_time/py06_time.egg-info/PKG-INFO
+[0.757s] writing dependency_links to ../../build/py06_time/py06_time.egg-info/dependency_links.txt
+[0.757s] writing entry points to ../../build/py06_time/py06_time.egg-info/entry_points.txt
+[0.757s] writing requirements to ../../build/py06_time/py06_time.egg-info/requires.txt
+[0.757s] writing top-level names to ../../build/py06_time/py06_time.egg-info/top_level.txt
+[0.758s] reading manifest file '../../build/py06_time/py06_time.egg-info/SOURCES.txt'
+[0.759s] writing manifest file '../../build/py06_time/py06_time.egg-info/SOURCES.txt'
+[0.759s] running build
+[0.759s] running build_py
+[0.759s] copying py06_time/demo01_time_py.py -> /home/lrm/ws01_plumbing/build/py06_time/build/lib/py06_time
+[0.759s] running install
+[0.759s] running install_lib
+[0.760s] copying /home/lrm/ws01_plumbing/build/py06_time/build/lib/py06_time/demo01_time_py.py -> /home/lrm/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time
+[0.760s] byte-compiling /home/lrm/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time/demo01_time_py.py to demo01_time_py.cpython-310.pyc
+[0.761s] running install_data
+[0.761s] running install_egg_info
+[0.763s] removing '/home/lrm/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time-0.0.0-py3.10.egg-info' (and everything under it)
+[0.763s] Copying ../../build/py06_time/py06_time.egg-info to /home/lrm/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time-0.0.0-py3.10.egg-info
+[0.765s] running install_scripts
+[0.781s] Installing demo01_time_py script to /home/lrm/ws01_plumbing/install/py06_time/lib/py06_time
+[0.781s] writing list of installed files to '/home/lrm/ws01_plumbing/build/py06_time/install.log'
+[0.808s] Invoked command in '/home/lrm/ws01_plumbing/src/py06_time' returned '0': PYTHONPATH=/home/lrm/ws01_plumbing/build/py06_time/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lrm/ws01_plumbing/install/py06_time/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py06_time build --build-base /home/lrm/ws01_plumbing/build/py06_time/build install --record /home/lrm/ws01_plumbing/build/py06_time/install.log --single-version-externally-managed install_data
