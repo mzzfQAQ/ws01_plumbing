@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/lrm/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/cpp06_time -- -j16 -l16
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target demo01_time[0m
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o[0m
+[2.836s] [100%] [32m[1mLinking CXX executable demo01_time[0m
+[2.951s] [100%] Built target demo01_time
+[2.965s] Invoked command in '/home/lrm/ws01_plumbing/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/cpp06_time -- -j16 -l16
+[2.978s] Invoking command in '/home/lrm/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lrm/ws01_plumbing/build/cpp06_time
+[2.985s] -- Install configuration: ""
+[2.985s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo01_time
+[2.985s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo01_time" to ""
+[2.985s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/package_run_dependencies/cpp06_time
+[2.986s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/parent_prefix_path/cpp06_time
+[2.986s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.sh
+[2.986s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.dsv
+[2.986s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/path.sh
+[2.986s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/path.dsv
+[2.986s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.bash
+[2.986s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.sh
+[2.986s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.zsh
+[2.986s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.dsv
+[2.986s] -- Installing: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/package.dsv
+[2.986s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/packages/cpp06_time
+[2.986s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig.cmake
+[2.987s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig-version.cmake
+[2.987s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp06_time/share/cpp06_time/package.xml
+[2.988s] Invoked command in '/home/lrm/ws01_plumbing/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lrm/ws01_plumbing/build/cpp06_time

@@ -21,10 +21,35 @@ public:
         RCLCPP_INFO(this->get_logger(), "time_node_cpp 节点已启动（C++）!");
         // demo_rate();
         // demo_time();
-        demo_duration();
+        // demo_duration();
+        demo_opt();
     }
 
 private:
+    //演示运算符的使用
+    void demo_opt()
+    {
+      rclcpp::Time t1(10,0);
+      rclcpp::Time t2(30,0);
+
+      rclcpp::Duration du1(8,0);
+      rclcpp::Duration du2(17,0);
+
+      //运算
+      //比较运算
+      RCLCPP_INFO(this->get_logger(),"t1>=t2?%d",t1 >= t2);
+      RCLCPP_INFO(this->get_logger(),"t1<t2?%d",t1 < t2);
+
+      //数学运算
+      rclcpp::Duration du3 = t2 - t1;
+      rclcpp::Time t3 = t1 + du1;
+      rclcpp::Time t4 = t1 - du1;
+      RCLCPP_INFO(this->get_logger(),"du3 = %.2f",du3.seconds());
+      RCLCPP_INFO(this->get_logger(),"t3 = %.2f",t3.seconds());
+      RCLCPP_INFO(this->get_logger(),"t4 = %.2f",t4.seconds());
+
+    }
+
     // 演示 Duration 的使用
     void demo_duration()
     {

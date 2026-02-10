@@ -20,7 +20,18 @@ class MyNode(Node):
         self.get_logger().info("time_node_py节点已启动（python）!")
         # self.demo_rate()
         # self.demo_time()
-        self.demo_duration()
+        # self.demo_duration()
+        self.demo_opt()
+
+    def demo_opt(self):
+        t1 = Time(seconds=20)
+        t2 = Time(seconds=15)
+
+        du1 = Duration(seconds=7)
+        du2 = Duration(seconds=13)
+
+        self.get_logger().info("p1>=P2?%d"%(t1>=t2))
+        self.get_logger().info("p1<P2?%d"%(t1<t2))
 
     def demo_duration(self):
         # 1.创建 Duration 对象
