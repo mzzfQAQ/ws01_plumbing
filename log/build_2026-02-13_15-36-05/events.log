@@ -1,0 +1,545 @@
+[0.000000] (-) TimerEvent: {}
+[0.000342] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000752] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000775] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000793] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000810] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000825] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.000840] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.000855] (-) JobUnselected: {'identifier': 'cpp07_exercise'}
+[0.000869] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000883] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000906] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.000924] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.000944] (-) JobUnselected: {'identifier': 'py05_names'}
+[0.000958] (-) JobUnselected: {'identifier': 'py06_time'}
+[0.000972] (-) JobUnselected: {'identifier': 'tutorails_plumbing'}
+[0.000991] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001011] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.008975] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.009469] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.010123] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lrm/ws01_plumbing/build/turtlesim', '--', '-j16', '-l16'], 'cwd': '/home/lrm/ws01_plumbing/build/turtlesim', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lrm'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lrm/ws01_plumbing/install/base_interfaces_demo/lib:/home/lrm/ws00_helloworld/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lrm'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/lrm'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1648'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2173'), ('BUNDLED_DEBUGPY_PATH', '/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2754'), ('COLCON_PREFIX_PATH', '/home/lrm/ws01_plumbing/install:/home/lrm/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lrm'), ('JOURNAL_STREAM', '8:14858'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lrm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lrm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lrm-Lenovo-Legion-R9000X2021R:@/tmp/.ICE-unix/1933,unix/lrm-Lenovo-Legion-R9000X2021R:/tmp/.ICE-unix/1933'), ('INVOCATION_ID', '30cd12865e97470794b81c9ec4922ac9'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0fa11d47707f9c0e.txt'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/lrm/.config/Code/User/workspaceStorage/ab098c9f6a670ab9e4dc1c4b5e2cccef/ms-python.python/pythonrc.py'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4e7e390f9c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws01_plumbing/install/cpp07_exercise:/home/lrm/ws01_plumbing/install/cpp06_time:/home/lrm/ws01_plumbing/install/cpp05_names:/home/lrm/ws01_plumbing/install/cpp04_param:/home/lrm/ws01_plumbing/install/cpp03_action:/home/lrm/ws01_plumbing/install/cpp02_service:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:23b23a34-f8bb-47bb-8e03-27daf67528f8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lrm/ws01_plumbing/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lrm/ws01_plumbing/install/py06_time/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py05_names/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/home/lrm/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lrm/ws01_plumbing/install/cpp07_exercise:/home/lrm/ws01_plumbing/install/cpp06_time:/home/lrm/ws01_plumbing/install/cpp05_names:/home/lrm/ws01_plumbing/install/cpp04_param:/home/lrm/ws01_plumbing/install/cpp03_action:/home/lrm/ws01_plumbing/install/cpp02_service:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble')]), 'shell': False}
+[0.059789] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c\x1b[0m\n'}
+[0.070764] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.075681] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.084714] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.086499] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.087042] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.087233] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.089869] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c\x1b[0m\n'}
+[0.090068] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.091069] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.099872] (-) TimerEvent: {}
+[0.108822] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.109296] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.109397] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.109458] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.112483] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.114877] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.120583] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target draw_square\x1b[0m\n'}
+[0.120920] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimic\x1b[0m\n'}
+[0.120992] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_teleop_key\x1b[0m\n'}
+[0.123484] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_node\x1b[0m\n'}
+[0.141041] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target turtlesim\n'}
+[0.141326] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target turtle_teleop_key\n'}
+[0.141415] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target mimic\n'}
+[0.141494] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target draw_square\n'}
+[0.155872] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[0.164458] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim__py\n'}
+[0.181265] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_py\x1b[0m\n'}
+[0.199984] (-) TimerEvent: {}
+[0.204109] (turtlesim) StdoutLine: {'line': b'[ 88%] Built target turtlesim__rosidl_generator_py\n'}
+[0.218432] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.218660] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.218754] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.233784] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.234061] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.234218] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.300066] (-) TimerEvent: {}
+[0.327230] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[0.327775] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[0.328093] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[0.328305] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[0.330111] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.330573] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.360982] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[0.400286] (-) TimerEvent: {}
+[0.500628] (-) TimerEvent: {}
+[0.601025] (-) TimerEvent: {}
+[0.701495] (-) TimerEvent: {}
+[0.801915] (-) TimerEvent: {}
+[0.902366] (-) TimerEvent: {}
+[1.002728] (-) TimerEvent: {}
+[1.103026] (-) TimerEvent: {}
+[1.203359] (-) TimerEvent: {}
+[1.303676] (-) TimerEvent: {}
+[1.403959] (-) TimerEvent: {}
+[1.504276] (-) TimerEvent: {}
+[1.604682] (-) TimerEvent: {}
+[1.704991] (-) TimerEvent: {}
+[1.805427] (-) TimerEvent: {}
+[1.906036] (-) TimerEvent: {}
+[2.006441] (-) TimerEvent: {}
+[2.106858] (-) TimerEvent: {}
+[2.207180] (-) TimerEvent: {}
+[2.307676] (-) TimerEvent: {}
+[2.408180] (-) TimerEvent: {}
+[2.508659] (-) TimerEvent: {}
+[2.609111] (-) TimerEvent: {}
+[2.709543] (-) TimerEvent: {}
+[2.810001] (-) TimerEvent: {}
+[2.910311] (-) TimerEvent: {}
+[3.010710] (-) TimerEvent: {}
+[3.110974] (-) TimerEvent: {}
+[3.211273] (-) TimerEvent: {}
+[3.311655] (-) TimerEvent: {}
+[3.411939] (-) TimerEvent: {}
+[3.512362] (-) TimerEvent: {}
+[3.612993] (-) TimerEvent: {}
+[3.713712] (-) TimerEvent: {}
+[3.814057] (-) TimerEvent: {}
+[3.914319] (-) TimerEvent: {}
+[4.014593] (-) TimerEvent: {}
+[4.114880] (-) TimerEvent: {}
+[4.215225] (-) TimerEvent: {}
+[4.315696] (-) TimerEvent: {}
+[4.416138] (-) TimerEvent: {}
+[4.516440] (-) TimerEvent: {}
+[4.617096] (-) TimerEvent: {}
+[4.717374] (-) TimerEvent: {}
+[4.817764] (-) TimerEvent: {}
+[4.918404] (-) TimerEvent: {}
+[5.018773] (-) TimerEvent: {}
+[5.119056] (-) TimerEvent: {}
+[5.219443] (-) TimerEvent: {}
+[5.319890] (-) TimerEvent: {}
+[5.420187] (-) TimerEvent: {}
+[5.520479] (-) TimerEvent: {}
+[5.620763] (-) TimerEvent: {}
+[5.721048] (-) TimerEvent: {}
+[5.821338] (-) TimerEvent: {}
+[5.921625] (-) TimerEvent: {}
+[6.021907] (-) TimerEvent: {}
+[6.122212] (-) TimerEvent: {}
+[6.222503] (-) TimerEvent: {}
+[6.322773] (-) TimerEvent: {}
+[6.423171] (-) TimerEvent: {}
+[6.523738] (-) TimerEvent: {}
+[6.624075] (-) TimerEvent: {}
+[6.724336] (-) TimerEvent: {}
+[6.824576] (-) TimerEvent: {}
+[6.924833] (-) TimerEvent: {}
+[7.025144] (-) TimerEvent: {}
+[7.125410] (-) TimerEvent: {}
+[7.225669] (-) TimerEvent: {}
+[7.326001] (-) TimerEvent: {}
+[7.426383] (-) TimerEvent: {}
+[7.526633] (-) TimerEvent: {}
+[7.626888] (-) TimerEvent: {}
+[7.727199] (-) TimerEvent: {}
+[7.827590] (-) TimerEvent: {}
+[7.927935] (-) TimerEvent: {}
+[8.028153] (-) TimerEvent: {}
+[8.128492] (-) TimerEvent: {}
+[8.229032] (-) TimerEvent: {}
+[8.329359] (-) TimerEvent: {}
+[8.429610] (-) TimerEvent: {}
+[8.529909] (-) TimerEvent: {}
+[8.630236] (-) TimerEvent: {}
+[8.730592] (-) TimerEvent: {}
+[8.830857] (-) TimerEvent: {}
+[8.931115] (-) TimerEvent: {}
+[9.031427] (-) TimerEvent: {}
+[9.131791] (-) TimerEvent: {}
+[9.232045] (-) TimerEvent: {}
+[9.332307] (-) TimerEvent: {}
+[9.432593] (-) TimerEvent: {}
+[9.532970] (-) TimerEvent: {}
+[9.633240] (-) TimerEvent: {}
+[9.733492] (-) TimerEvent: {}
+[9.833741] (-) TimerEvent: {}
+[9.934029] (-) TimerEvent: {}
+[10.034317] (-) TimerEvent: {}
+[10.134579] (-) TimerEvent: {}
+[10.234850] (-) TimerEvent: {}
+[10.335197] (-) TimerEvent: {}
+[10.435666] (-) TimerEvent: {}
+[10.536007] (-) TimerEvent: {}
+[10.636298] (-) TimerEvent: {}
+[10.736611] (-) TimerEvent: {}
+[10.760145] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[10.836726] (-) TimerEvent: {}
+[10.937024] (-) TimerEvent: {}
+[11.037376] (-) TimerEvent: {}
+[11.137724] (-) TimerEvent: {}
+[11.238139] (-) TimerEvent: {}
+[11.338730] (-) TimerEvent: {}
+[11.439340] (-) TimerEvent: {}
+[11.539975] (-) TimerEvent: {}
+[11.640467] (-) TimerEvent: {}
+[11.740768] (-) TimerEvent: {}
+[11.841276] (-) TimerEvent: {}
+[11.941840] (-) TimerEvent: {}
+[12.042422] (-) TimerEvent: {}
+[12.142908] (-) TimerEvent: {}
+[12.243229] (-) TimerEvent: {}
+[12.343495] (-) TimerEvent: {}
+[12.443793] (-) TimerEvent: {}
+[12.544156] (-) TimerEvent: {}
+[12.644464] (-) TimerEvent: {}
+[12.744738] (-) TimerEvent: {}
+[12.845052] (-) TimerEvent: {}
+[12.945335] (-) TimerEvent: {}
+[13.045620] (-) TimerEvent: {}
+[13.139129] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[13.145698] (-) TimerEvent: {}
+[13.151698] (turtlesim) CommandEnded: {'returncode': 0}
+[13.152331] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[13.163804] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lrm/ws01_plumbing/build/turtlesim'], 'cwd': '/home/lrm/ws01_plumbing/build/turtlesim', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lrm'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lrm/ws01_plumbing/install/base_interfaces_demo/lib:/home/lrm/ws00_helloworld/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lrm'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/lrm'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1648'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2173'), ('BUNDLED_DEBUGPY_PATH', '/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2754'), ('COLCON_PREFIX_PATH', '/home/lrm/ws01_plumbing/install:/home/lrm/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lrm'), ('JOURNAL_STREAM', '8:14858'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lrm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lrm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lrm-Lenovo-Legion-R9000X2021R:@/tmp/.ICE-unix/1933,unix/lrm-Lenovo-Legion-R9000X2021R:/tmp/.ICE-unix/1933'), ('INVOCATION_ID', '30cd12865e97470794b81c9ec4922ac9'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0fa11d47707f9c0e.txt'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/lrm/.config/Code/User/workspaceStorage/ab098c9f6a670ab9e4dc1c4b5e2cccef/ms-python.python/pythonrc.py'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4e7e390f9c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws01_plumbing/install/cpp07_exercise:/home/lrm/ws01_plumbing/install/cpp06_time:/home/lrm/ws01_plumbing/install/cpp05_names:/home/lrm/ws01_plumbing/install/cpp04_param:/home/lrm/ws01_plumbing/install/cpp03_action:/home/lrm/ws01_plumbing/install/cpp02_service:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:23b23a34-f8bb-47bb-8e03-27daf67528f8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lrm/ws01_plumbing/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lrm/ws01_plumbing/install/py06_time/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py05_names/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/home/lrm/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lrm/ws01_plumbing/install/cpp07_exercise:/home/lrm/ws01_plumbing/install/cpp06_time:/home/lrm/ws01_plumbing/install/cpp05_names:/home/lrm/ws01_plumbing/install/cpp04_param:/home/lrm/ws01_plumbing/install/cpp03_action:/home/lrm/ws01_plumbing/install/cpp02_service:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble')]), 'shell': False}
+[13.171199] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.171353] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[13.171495] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim\n'}
+[13.171616] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[13.171701] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[13.171782] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[13.171855] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[13.171948] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[13.172057] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[13.172177] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[13.172296] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[13.172377] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[13.172485] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[13.172575] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.172668] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[13.172794] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[13.172890] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[13.172954] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[13.173028] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[13.173145] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[13.173246] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[13.173358] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[13.173458] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[13.173562] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[13.173675] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[13.173783] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[13.173901] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[13.174013] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[13.174122] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[13.174234] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[13.174333] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[13.174442] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[13.174542] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[13.174643] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[13.174741] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[13.174840] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[13.174963] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[13.175070] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[13.175204] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[13.175297] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[13.175392] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[13.175489] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[13.175586] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[13.175689] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[13.175756] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[13.175819] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[13.175970] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[13.176074] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[13.176190] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[13.176343] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[13.176513] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[13.176640] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[13.176822] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[13.177251] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[13.177381] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim\n'}
+[13.177447] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[13.177533] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[13.177582] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[13.177628] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[13.177692] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.177763] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[13.177814] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[13.177876] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[13.177939] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[13.178017] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[13.178132] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[13.178233] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[13.178339] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[13.178465] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[13.178579] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[13.178674] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[13.178922] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.179051] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim\n'}
+[13.179145] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[13.179212] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[13.179261] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[13.179372] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[13.179428] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[13.179504] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp\n'}
+[13.179584] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp\n'}
+[13.179634] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[13.179693] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[13.179797] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[13.179904] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[13.180038] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[13.180144] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[13.180238] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[13.180316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[13.180370] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp\n'}
+[13.180445] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[13.180526] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[13.180630] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[13.180738] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[13.180840] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp\n'}
+[13.180944] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[13.181111] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp\n'}
+[13.181224] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[13.181324] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[13.181437] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[13.181543] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[13.181655] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[13.181768] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[13.181877] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp\n'}
+[13.182021] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[13.182155] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[13.182271] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp\n'}
+[13.182381] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[13.182487] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[13.182594] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[13.182694] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[13.182814] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[13.182895] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[13.182988] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[13.183078] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[13.183146] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[13.183214] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[13.183276] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[13.183398] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp\n'}
+[13.183540] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[13.183659] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[13.183798] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim\n'}
+[13.183864] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[13.183911] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[13.183976] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.184035] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.184136] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[13.184276] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.184383] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[13.184491] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[13.184559] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.184641] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.184731] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.184807] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.184887] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[13.184957] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.185061] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[13.185151] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[13.185281] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.185393] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[13.185538] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.186162] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.186249] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim\n'}
+[13.186354] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[13.186420] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[13.186484] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[13.186539] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[13.186623] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[13.186759] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[13.186854] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.186937] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[13.187014] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[13.187064] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[13.187134] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[13.187235] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[13.187342] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[13.187452] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[13.187575] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[13.187699] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[13.187804] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[13.187926] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[13.188052] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[13.188199] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[13.188290] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[13.188361] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[13.188461] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[13.188567] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[13.188934] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.189028] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[13.189404] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[13.189478] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim\n'}
+[13.189548] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[13.189624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[13.189677] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[13.189744] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.189810] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.189895] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[13.190013] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[13.190124] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[13.190193] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[13.190273] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.190350] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[13.190479] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[13.190625] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[13.190786] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.190922] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.191048] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.191190] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.191341] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[13.191441] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[13.191526] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[13.191584] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[13.191688] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.191858] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[13.192401] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.192493] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[13.192840] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[13.192907] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[13.193042] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[13.193196] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info\n'}
+[13.193397] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/dependency_links.txt\n'}
+[13.193518] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/SOURCES.txt\n'}
+[13.193647] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/top_level.txt\n'}
+[13.193809] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/PKG-INFO\n'}
+[13.193925] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[13.194029] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.194142] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[13.194248] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[13.194346] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[13.194450] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[13.194547] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[13.194647] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[13.194758] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.194984] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[13.195062] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[13.195188] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[13.195305] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[13.195420] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[13.195528] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[13.195637] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[13.195746] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[13.195860] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[13.195978] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[13.196090] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[13.196211] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[13.196322] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.196557] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.196786] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.196970] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[13.197214] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[13.197380] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[13.197485] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[13.197589] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[13.197679] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[13.197849] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[13.242194] (turtlesim) StdoutLine: {'line': b"Listing '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[13.242515] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...\n"}
+[13.242584] (turtlesim) StdoutLine: {'line': b"Listing '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[13.242638] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...\n"}
+[13.242688] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...\n"}
+[13.242735] (turtlesim) StdoutLine: {'line': b"Listing '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[13.242781] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...\n"}
+[13.242831] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...\n"}
+[13.242877] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...\n"}
+[13.242921] (turtlesim) StdoutLine: {'line': b"Listing '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[13.242967] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...\n"}
+[13.243009] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...\n"}
+[13.243053] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...\n"}
+[13.243100] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...\n"}
+[13.243245] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...\n"}
+[13.243322] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...\n"}
+[13.245806] (-) TimerEvent: {}
+[13.249257] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.249780] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[13.249975] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.250351] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[13.250540] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.250884] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[13.250950] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[13.251411] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""\n'}
+[13.251516] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[13.251772] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[13.251979] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[13.252212] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[13.252370] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[13.252525] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[13.252669] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[13.252804] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[13.252934] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[13.253112] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[13.253292] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[13.253437] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[13.253557] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[13.253725] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[13.253827] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[13.253961] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[13.254082] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[13.254267] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[13.254412] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[13.254545] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[13.254750] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[13.254954] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[13.255112] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[13.255254] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[13.255393] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[13.255535] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[13.255772] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[13.265437] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[13.265583] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[13.267411] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[13.267519] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/turtlesim/draw_square\n'}
+[13.272669] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[13.272890] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/turtlesim/mimic\n'}
+[13.278257] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[13.278452] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images\n'}
+[13.278535] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[13.278650] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[13.278727] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[13.278820] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[13.278911] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[13.279003] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[13.279088] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[13.279184] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[13.279275] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[13.279398] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/launch\n'}
+[13.279488] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[13.279650] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[13.279831] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[13.279968] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[13.280108] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[13.280242] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[13.280366] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[13.280504] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[13.280636] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[13.280765] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[13.280898] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[13.281026] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/package.dsv\n'}
+[13.281220] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[13.281394] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[13.281528] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.281671] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.281814] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.281954] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[13.282095] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.282242] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.282380] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.282519] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.282660] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[13.282801] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.282941] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.283084] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.283242] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[13.283378] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.283516] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[13.283664] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.283809] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[13.283947] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.284086] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.284222] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.284356] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.284503] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.284632] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.284767] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[13.284878] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[13.285024] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/package.xml\n'}
+[13.287519] (turtlesim) CommandEnded: {'returncode': 0}
+[13.304934] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[13.305458] (-) EventReactorShutdown: {}

@@ -1,0 +1,390 @@
+[0.011s] Invoking command in '/home/lrm/ws01_plumbing/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/turtlesim -- -j16 -l16
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c[0m
+[0.070s] [  1%] Built target turtlesim__cpp
+[0.075s] [ 11%] Built target turtlesim__rosidl_generator_c
+[0.084s] [ 11%] Built target ament_cmake_python_copy_turtlesim
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp[0m
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp[0m
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp[0m
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c[0m
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c[0m
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c[0m
+[0.108s] [ 41%] Built target turtlesim__rosidl_typesupport_c
+[0.108s] [ 41%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.108s] [ 41%] Built target turtlesim__rosidl_typesupport_cpp
+[0.108s] [ 51%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.112s] [ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.114s] [ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.120s] [35m[1mConsolidate compiler generated dependencies of target draw_square[0m
+[0.120s] [35m[1mConsolidate compiler generated dependencies of target mimic[0m
+[0.120s] [35m[1mConsolidate compiler generated dependencies of target turtle_teleop_key[0m
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_node[0m
+[0.140s] [ 73%] Built target turtlesim
+[0.140s] [ 77%] Built target turtle_teleop_key
+[0.140s] [ 77%] Built target mimic
+[0.141s] [ 77%] Built target draw_square
+[0.155s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o[0m
+[0.164s] [ 79%] Built target turtlesim__py
+[0.180s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_py[0m
+[0.203s] [ 88%] Built target turtlesim__rosidl_generator_py
+[0.218s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c__pyext[0m
+[0.218s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.218s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext[0m
+[0.233s] [ 93%] Built target turtlesim__rosidl_typesupport_c__pyext
+[0.233s] [ 94%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[0.233s] [ 94%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[0.326s] running egg_info
+[0.327s] writing turtlesim.egg-info/PKG-INFO
+[0.327s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[0.327s] writing top-level names to turtlesim.egg-info/top_level.txt
+[0.329s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.330s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.360s] [ 94%] Built target ament_cmake_python_build_turtlesim_egg
+[10.759s] [ 95%] [32m[1mLinking CXX executable turtlesim_node[0m
+[13.138s] [100%] Built target turtlesim_node
+[13.151s] Invoked command in '/home/lrm/ws01_plumbing/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/turtlesim -- -j16 -l16
+[13.164s] Invoking command in '/home/lrm/ws01_plumbing/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lrm/ws01_plumbing/build/turtlesim
+[13.170s] -- Install configuration: ""
+[13.170s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+[13.171s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim
+[13.171s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg
+[13.171s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[13.171s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h
+[13.171s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h
+[13.171s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c
+[13.171s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c
+[13.171s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h
+[13.171s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h
+[13.171s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h
+[13.172s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h
+[13.172s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h
+[13.172s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h
+[13.172s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/color.h
+[13.172s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv
+[13.172s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[13.172s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h
+[13.172s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h
+[13.172s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c
+[13.172s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h
+[13.172s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h
+[13.173s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c
+[13.173s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h
+[13.173s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c
+[13.173s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h
+[13.173s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h
+[13.173s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h
+[13.173s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h
+[13.173s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h
+[13.173s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h
+[13.174s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h
+[13.174s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h
+[13.174s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h
+[13.174s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h
+[13.174s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c
+[13.174s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c
+[13.174s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h
+[13.174s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h
+[13.174s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h
+[13.175s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h
+[13.175s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h
+[13.175s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action
+[13.175s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[13.175s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c
+[13.175s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h
+[13.175s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h
+[13.175s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h
+[13.175s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h
+[13.176s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/environment/library_path.sh
+[13.176s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/environment/library_path.dsv
+[13.176s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so
+[13.176s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""
+[13.176s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim
+[13.176s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg
+[13.177s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[13.177s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[13.177s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[13.177s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.177s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv
+[13.177s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[13.177s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[13.177s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[13.177s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[13.177s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[13.177s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[13.177s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action
+[13.178s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[13.178s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[13.178s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so
+[13.178s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""
+[13.178s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim
+[13.178s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg
+[13.178s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[13.178s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp
+[13.178s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp
+[13.178s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp
+[13.179s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp
+[13.179s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp
+[13.179s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp
+[13.179s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp
+[13.179s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp
+[13.179s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp
+[13.179s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp
+[13.179s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp
+[13.179s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv
+[13.179s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[13.179s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp
+[13.179s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+[13.180s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp
+[13.180s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp
+[13.180s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp
+[13.180s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp
+[13.180s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+[13.180s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp
+[13.180s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
+[13.180s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
+[13.180s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp
+[13.181s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp
+[13.181s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp
+[13.181s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
+[13.181s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp
+[13.181s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp
+[13.181s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp
+[13.181s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp
+[13.181s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+[13.182s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp
+[13.182s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp
+[13.182s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp
+[13.182s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp
+[13.182s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp
+[13.182s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp
+[13.182s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action
+[13.182s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[13.182s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp
+[13.182s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp
+[13.182s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp
+[13.183s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp
+[13.183s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp
+[13.183s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim
+[13.183s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg
+[13.183s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[13.183s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[13.183s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[13.183s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps
+[13.183s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.183s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv
+[13.184s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[13.184s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[13.184s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[13.184s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[13.184s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[13.184s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps
+[13.184s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[13.184s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action
+[13.184s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[13.184s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[13.184s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps
+[13.185s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+[13.185s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.185s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim
+[13.185s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg
+[13.185s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[13.186s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c
+[13.186s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+[13.186s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c
+[13.186s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[13.186s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.186s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv
+[13.186s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[13.186s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[13.186s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c
+[13.186s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[13.186s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[13.186s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c
+[13.187s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c
+[13.187s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[13.187s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c
+[13.187s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[13.187s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c
+[13.187s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action
+[13.187s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[13.187s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[13.187s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c
+[13.188s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so
+[13.188s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""
+[13.188s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so
+[13.188s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""
+[13.188s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim
+[13.189s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg
+[13.189s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[13.189s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp
+[13.189s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[13.189s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[13.189s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp
+[13.189s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv
+[13.189s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[13.189s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp
+[13.189s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[13.189s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp
+[13.190s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp
+[13.190s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp
+[13.190s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[13.190s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[13.190s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[13.190s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[13.190s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp
+[13.190s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action
+[13.191s] -- Up-to-date: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[13.191s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp
+[13.191s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[13.191s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
+[13.191s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""
+[13.192s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so
+[13.192s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""
+[13.192s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/environment/pythonpath.sh
+[13.192s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/environment/pythonpath.dsv
+[13.192s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info
+[13.192s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/dependency_links.txt
+[13.193s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/SOURCES.txt
+[13.193s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/top_level.txt
+[13.193s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/PKG-INFO
+[13.193s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim
+[13.193s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.193s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg
+[13.193s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py
+[13.193s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c
+[13.193s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c
+[13.194s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py
+[13.194s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py
+[13.194s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c
+[13.194s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv
+[13.194s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c
+[13.194s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py
+[13.194s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py
+[13.194s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py
+[13.195s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c
+[13.195s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c
+[13.195s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py
+[13.195s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py
+[13.195s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c
+[13.195s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c
+[13.195s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py
+[13.195s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.196s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.196s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.196s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so
+[13.196s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action
+[13.196s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c
+[13.197s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py
+[13.197s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py
+[13.197s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py
+[13.197s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c
+[13.241s] Listing '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...
+[13.242s] Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...
+[13.242s] Listing '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...
+[13.242s] Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...
+[13.242s] Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...
+[13.242s] Listing '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...
+[13.242s] Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...
+[13.242s] Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...
+[13.242s] Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...
+[13.242s] Listing '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...
+[13.242s] Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...
+[13.242s] Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...
+[13.242s] Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...
+[13.242s] Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...
+[13.242s] Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...
+[13.242s] Compiling '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...
+[13.248s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.249s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.249s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.249s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.250s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.250s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.250s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so
+[13.250s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""
+[13.251s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+[13.251s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/msg/Color.idl
+[13.251s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/msg/Pose.idl
+[13.251s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Kill.idl
+[13.251s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/SetPen.idl
+[13.252s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Spawn.idl
+[13.252s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+[13.252s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+[13.252s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+[13.252s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/msg/Color.msg
+[13.252s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/msg/Pose.msg
+[13.252s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Kill.srv
+[13.253s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Kill_Request.msg
+[13.253s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Kill_Response.msg
+[13.253s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/SetPen.srv
+[13.253s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg
+[13.253s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg
+[13.253s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Spawn.srv
+[13.253s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg
+[13.254s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg
+[13.254s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+[13.254s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg
+[13.254s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg
+[13.254s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+[13.254s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg
+[13.255s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg
+[13.255s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/turtlesim/turtlesim_node
+[13.265s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/turtlesim/turtlesim_node" to ""
+[13.265s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[13.266s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""
+[13.267s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/turtlesim/draw_square
+[13.272s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/turtlesim/draw_square" to ""
+[13.272s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/lib/turtlesim/mimic
+[13.277s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/turtlesim/lib/turtlesim/mimic" to ""
+[13.277s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images
+[13.278s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/bouncy.png
+[13.278s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/dashing.png
+[13.278s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/ardent.png
+[13.278s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/rolling.png
+[13.278s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/crystal.png
+[13.278s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/galactic.png
+[13.278s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/eloquent.png
+[13.278s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/foxy.png
+[13.278s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/images/humble.png
+[13.278s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/launch
+[13.279s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[13.279s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[13.279s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[13.279s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[13.279s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[13.279s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/environment/path.sh
+[13.279s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/environment/path.dsv
+[13.280s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/local_setup.bash
+[13.280s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/local_setup.sh
+[13.280s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/local_setup.zsh
+[13.280s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/local_setup.dsv
+[13.280s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/package.dsv
+[13.280s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[13.280s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake
+[13.281s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake
+[13.281s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake
+[13.281s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.281s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake
+[13.281s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.281s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.281s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+[13.282s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.282s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+[13.282s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+[13.282s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+[13.282s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.282s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+[13.282s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+[13.283s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake
+[13.283s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake
+[13.283s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+[13.283s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.283s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.283s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+[13.283s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+[13.284s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.284s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.284s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[13.284s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[13.284s] -- Installing: /home/lrm/ws01_plumbing/install/turtlesim/share/turtlesim/package.xml
+[13.287s] Invoked command in '/home/lrm/ws01_plumbing/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lrm/ws01_plumbing/build/turtlesim

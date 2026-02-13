@@ -1,0 +1,11 @@
+[01m[K/home/lrm/ws01_plumbing/src/turtlesim/src/turtle.cpp:[m[K In member function ‘[01m[Kbool turtlesim::Turtle::update(double, QPainter&, const QImage&, qreal, qreal)[m[K’:
+[01m[K/home/lrm/ws01_plumbing/src/turtlesim/src/turtle.cpp:272:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kp[m[K’
+  272 |   p->linear_velocity = lin_vel_x_
+      |                                  [01;31m[K^[m[K
+      |                                  [32m[K;[m[K
+  273 |   [32m[Kp[m[K->angular_velocity = ang_vel_;
+      |   [32m[K~[m[K                               
+gmake[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:94：CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[1]: *** [CMakeFiles/Makefile2:599：CMakeFiles/turtlesim_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
