@@ -210,6 +210,32 @@ exer01_pub_sub/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer01_pub_sub.dir/build.make CMakeFiles/exer01_pub_sub.dir/build
 .PHONY : exer01_pub_sub/fast
 
+#=============================================================================
+# Target rules for targets named exer02_server
+
+# Build rule for target.
+exer02_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exer02_server
+.PHONY : exer02_server
+
+# fast build rule for target.
+exer02_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer02_server.dir/build.make CMakeFiles/exer02_server.dir/build
+.PHONY : exer02_server/fast
+
+#=============================================================================
+# Target rules for targets named exer03_client
+
+# Build rule for target.
+exer03_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exer03_client
+.PHONY : exer03_client
+
+# fast build rule for target.
+exer03_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer03_client.dir/build.make CMakeFiles/exer03_client.dir/build
+.PHONY : exer03_client/fast
+
 src/exer01_pub_sub.o: src/exer01_pub_sub.cpp.o
 .PHONY : src/exer01_pub_sub.o
 
@@ -234,6 +260,54 @@ src/exer01_pub_sub.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer01_pub_sub.dir/build.make CMakeFiles/exer01_pub_sub.dir/src/exer01_pub_sub.cpp.s
 .PHONY : src/exer01_pub_sub.cpp.s
 
+src/exer02_server.o: src/exer02_server.cpp.o
+.PHONY : src/exer02_server.o
+
+# target to build an object file
+src/exer02_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer02_server.dir/build.make CMakeFiles/exer02_server.dir/src/exer02_server.cpp.o
+.PHONY : src/exer02_server.cpp.o
+
+src/exer02_server.i: src/exer02_server.cpp.i
+.PHONY : src/exer02_server.i
+
+# target to preprocess a source file
+src/exer02_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer02_server.dir/build.make CMakeFiles/exer02_server.dir/src/exer02_server.cpp.i
+.PHONY : src/exer02_server.cpp.i
+
+src/exer02_server.s: src/exer02_server.cpp.s
+.PHONY : src/exer02_server.s
+
+# target to generate assembly for a file
+src/exer02_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer02_server.dir/build.make CMakeFiles/exer02_server.dir/src/exer02_server.cpp.s
+.PHONY : src/exer02_server.cpp.s
+
+src/exer03_client.o: src/exer03_client.cpp.o
+.PHONY : src/exer03_client.o
+
+# target to build an object file
+src/exer03_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer03_client.dir/build.make CMakeFiles/exer03_client.dir/src/exer03_client.cpp.o
+.PHONY : src/exer03_client.cpp.o
+
+src/exer03_client.i: src/exer03_client.cpp.i
+.PHONY : src/exer03_client.i
+
+# target to preprocess a source file
+src/exer03_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer03_client.dir/build.make CMakeFiles/exer03_client.dir/src/exer03_client.cpp.i
+.PHONY : src/exer03_client.cpp.i
+
+src/exer03_client.s: src/exer03_client.cpp.s
+.PHONY : src/exer03_client.s
+
+# target to generate assembly for a file
+src/exer03_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer03_client.dir/build.make CMakeFiles/exer03_client.dir/src/exer03_client.cpp.s
+.PHONY : src/exer03_client.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +324,17 @@ help:
 	@echo "... cpp07_exercise_uninstall"
 	@echo "... uninstall"
 	@echo "... exer01_pub_sub"
+	@echo "... exer02_server"
+	@echo "... exer03_client"
 	@echo "... src/exer01_pub_sub.o"
 	@echo "... src/exer01_pub_sub.i"
 	@echo "... src/exer01_pub_sub.s"
+	@echo "... src/exer02_server.o"
+	@echo "... src/exer02_server.i"
+	@echo "... src/exer02_server.s"
+	@echo "... src/exer03_client.o"
+	@echo "... src/exer03_client.i"
+	@echo "... src/exer03_client.s"
 .PHONY : help
 
 

@@ -26,6 +26,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/lrm/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__struct.hpp" "/home/lrm/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
   "/home/lrm/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__traits.hpp" "/home/lrm/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
   "/home/lrm/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__type_support.hpp" "/home/lrm/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
+  "/home/lrm/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__builder.hpp" "/home/lrm/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
+  "/home/lrm/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__struct.hpp" "/home/lrm/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
+  "/home/lrm/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__traits.hpp" "/home/lrm/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
+  "/home/lrm/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__type_support.hpp" "/home/lrm/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
+  "/home/lrm/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/distance.hpp" "/home/lrm/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
   )
 
 
