@@ -262,6 +262,19 @@ exer05_action_client/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer05_action_client.dir/build.make CMakeFiles/exer05_action_client.dir/build
 .PHONY : exer05_action_client/fast
 
+#=============================================================================
+# Target rules for targets named exer06_param
+
+# Build rule for target.
+exer06_param: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exer06_param
+.PHONY : exer06_param
+
+# fast build rule for target.
+exer06_param/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer06_param.dir/build.make CMakeFiles/exer06_param.dir/build
+.PHONY : exer06_param/fast
+
 src/exer01_pub_sub.o: src/exer01_pub_sub.cpp.o
 .PHONY : src/exer01_pub_sub.o
 
@@ -382,6 +395,30 @@ src/exer05_action_client.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer05_action_client.dir/build.make CMakeFiles/exer05_action_client.dir/src/exer05_action_client.cpp.s
 .PHONY : src/exer05_action_client.cpp.s
 
+src/exer06_param.o: src/exer06_param.cpp.o
+.PHONY : src/exer06_param.o
+
+# target to build an object file
+src/exer06_param.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer06_param.dir/build.make CMakeFiles/exer06_param.dir/src/exer06_param.cpp.o
+.PHONY : src/exer06_param.cpp.o
+
+src/exer06_param.i: src/exer06_param.cpp.i
+.PHONY : src/exer06_param.i
+
+# target to preprocess a source file
+src/exer06_param.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer06_param.dir/build.make CMakeFiles/exer06_param.dir/src/exer06_param.cpp.i
+.PHONY : src/exer06_param.cpp.i
+
+src/exer06_param.s: src/exer06_param.cpp.s
+.PHONY : src/exer06_param.s
+
+# target to generate assembly for a file
+src/exer06_param.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer06_param.dir/build.make CMakeFiles/exer06_param.dir/src/exer06_param.cpp.s
+.PHONY : src/exer06_param.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -402,6 +439,7 @@ help:
 	@echo "... exer03_client"
 	@echo "... exer04_action_server"
 	@echo "... exer05_action_client"
+	@echo "... exer06_param"
 	@echo "... src/exer01_pub_sub.o"
 	@echo "... src/exer01_pub_sub.i"
 	@echo "... src/exer01_pub_sub.s"
@@ -417,6 +455,9 @@ help:
 	@echo "... src/exer05_action_client.o"
 	@echo "... src/exer05_action_client.i"
 	@echo "... src/exer05_action_client.s"
+	@echo "... src/exer06_param.o"
+	@echo "... src/exer06_param.i"
+	@echo "... src/exer06_param.s"
 .PHONY : help
 
 

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "exer02_server"
+			"path" : "exer01_pub_sub"
 		}
 	],
 	"backtrace" : 1,
@@ -30,19 +30,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 17,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 65,
+				"line" : 74,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 33,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
@@ -55,6 +55,12 @@
 				"command" : 4,
 				"file" : 0,
 				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
@@ -98,26 +104,30 @@
 			[
 				{
 					"backtrace" : 6,
+					"path" : "/home/lrm/ws01_plumbing/src/cpp07_exercise/include"
+				},
+				{
+					"backtrace" : 7,
 					"isSystem" : true,
 					"path" : "/home/lrm/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"isSystem" : true,
 					"path" : "/home/lrm/ws00_helloworld/install/turtlesim/include/turtlesim"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rclcpp"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/geometry_msgs"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rclcpp_action"
 				},
@@ -269,7 +279,7 @@
 			]
 		}
 	],
-	"id" : "exer02_server::@6890427a1f51a3e7e1df",
+	"id" : "exer01_pub_sub::@6890427a1f51a3e7e1df",
 	"install" : 
 	{
 		"destinations" : 
@@ -745,8 +755,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "exer02_server",
-	"nameOnDisk" : "exer02_server",
+	"name" : "exer01_pub_sub",
+	"nameOnDisk" : "exer01_pub_sub",
 	"paths" : 
 	{
 		"build" : ".",
@@ -767,7 +777,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/exer02_server.cpp",
+			"path" : "src/exer01_pub_sub.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

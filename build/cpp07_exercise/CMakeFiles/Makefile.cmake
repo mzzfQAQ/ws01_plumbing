@@ -793,4 +793,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/exer03_client.dir/DependInfo.cmake"
   "CMakeFiles/exer04_action_server.dir/DependInfo.cmake"
   "CMakeFiles/exer05_action_client.dir/DependInfo.cmake"
+  "CMakeFiles/exer06_param.dir/DependInfo.cmake"
   )

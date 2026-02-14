@@ -36,19 +36,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 65,
+				"line" : 74,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 72,
+				"line" : 82,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 86,
+				"line" : 96,
 				"parent" : 0
 			},
 			{
@@ -287,6 +287,18 @@
 			],
 			"targetId" : "exer05_action_client::@6890427a1f51a3e7e1df",
 			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cpp07_exercise",
+			"paths" : 
+			[
+				"exer06_param"
+			],
+			"targetId" : "exer06_param::@6890427a1f51a3e7e1df",
+			"targetIndex" : 6,
 			"type" : "target"
 		},
 		{

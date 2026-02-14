@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-f7fbf182776cfb189c77.json",
+					"jsonFile" : "directory-.-d6df43f84223b677b705.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -22,7 +22,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -43,7 +44,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -59,36 +61,43 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "exer01_pub_sub::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-exer01_pub_sub-c9f6a493dc2cd1d41505.json",
+					"jsonFile" : "target-exer01_pub_sub-6f9ea79621f9023cc8c6.json",
 					"name" : "exer01_pub_sub",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "exer02_server::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-exer02_server-79dac8f053876288bab8.json",
+					"jsonFile" : "target-exer02_server-80482418f17f4ac5a3f5.json",
 					"name" : "exer02_server",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "exer03_client::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-exer03_client-9b779cf80ad2e6ad0205.json",
+					"jsonFile" : "target-exer03_client-d1266ade7a0c68f0e66e.json",
 					"name" : "exer03_client",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "exer04_action_server::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-exer04_action_server-02508f6caba4e07d8aca.json",
+					"jsonFile" : "target-exer04_action_server-b74f010df732c083300f.json",
 					"name" : "exer04_action_server",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "exer05_action_client::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-exer05_action_client-a9eb530f1bc8bafdbe60.json",
+					"jsonFile" : "target-exer05_action_client-7788c5f1da29ea20e13e.json",
 					"name" : "exer05_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer06_param::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer06_param-d5ba52b9714fefa81fa2.json",
+					"name" : "exer06_param",
 					"projectIndex" : 0
 				},
 				{

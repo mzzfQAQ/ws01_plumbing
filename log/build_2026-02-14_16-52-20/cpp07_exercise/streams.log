@@ -1,0 +1,43 @@
+[0.018s] Invoking command in '/home/lrm/ws01_plumbing/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/lrm/ws01_plumbing/install/turtlesim:/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws01_plumbing/install/cpp07_exercise:/home/lrm/ws01_plumbing/install/cpp06_time:/home/lrm/ws01_plumbing/install/cpp05_names:/home/lrm/ws01_plumbing/install/cpp04_param:/home/lrm/ws01_plumbing/install/cpp03_action:/home/lrm/ws01_plumbing/install/cpp02_service:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/cpp07_exercise -- -j16 -l16
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target exer06_param[0m
+[0.087s] [ 75%] Built target exer05_action_client
+[0.088s] [ 75%] Built target exer01_pub_sub
+[0.088s] [ 75%] Built target exer03_client
+[0.088s] [ 75%] Built target exer02_server
+[0.088s] [ 83%] Built target exer04_action_server
+[0.094s] [ 91%] [32mBuilding CXX object CMakeFiles/exer06_param.dir/src/exer06_param.cpp.o[0m
+[3.021s] [100%] [32m[1mLinking CXX executable exer06_param[0m
+[3.161s] [100%] Built target exer06_param
+[3.177s] Invoked command in '/home/lrm/ws01_plumbing/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/lrm/ws01_plumbing/install/turtlesim:/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws01_plumbing/install/cpp07_exercise:/home/lrm/ws01_plumbing/install/cpp06_time:/home/lrm/ws01_plumbing/install/cpp05_names:/home/lrm/ws01_plumbing/install/cpp04_param:/home/lrm/ws01_plumbing/install/cpp03_action:/home/lrm/ws01_plumbing/install/cpp02_service:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/lrm/ws01_plumbing/build/cpp07_exercise -- -j16 -l16
+[3.189s] Invoking command in '/home/lrm/ws01_plumbing/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/lrm/ws01_plumbing/install/turtlesim:/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws01_plumbing/install/cpp07_exercise:/home/lrm/ws01_plumbing/install/cpp06_time:/home/lrm/ws01_plumbing/install/cpp05_names:/home/lrm/ws01_plumbing/install/cpp04_param:/home/lrm/ws01_plumbing/install/cpp03_action:/home/lrm/ws01_plumbing/install/cpp02_service:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lrm/ws01_plumbing/build/cpp07_exercise
+[3.196s] -- Install configuration: ""
+[3.196s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub
+[3.197s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer02_server
+[3.197s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer03_client
+[3.197s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer04_action_server
+[3.197s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer05_action_client
+[3.198s] -- Installing: /home/lrm/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer06_param
+[3.198s] -- Set runtime path of "/home/lrm/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer06_param" to ""
+[3.198s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch
+[3.198s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer02_server_launch.py
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer04_server_launch.py
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer03_client_launch.py
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer06_param_launch.py
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer05_client_client_launch.py
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv
+[3.199s] -- Installing: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.dsv
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake
+[3.199s] -- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.xml
+[3.201s] Invoked command in '/home/lrm/ws01_plumbing/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/lrm/ws01_plumbing/install/turtlesim:/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws01_plumbing/install/cpp07_exercise:/home/lrm/ws01_plumbing/install/cpp06_time:/home/lrm/ws01_plumbing/install/cpp05_names:/home/lrm/ws01_plumbing/install/cpp04_param:/home/lrm/ws01_plumbing/install/cpp03_action:/home/lrm/ws01_plumbing/install/cpp02_service:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/lrm/ws01_plumbing/build/cpp07_exercise
