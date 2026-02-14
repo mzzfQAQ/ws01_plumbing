@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.000306] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000439] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000633] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000707] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000721] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000733] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.000744] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.000755] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000765] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000776] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.000787] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.000798] (-) JobUnselected: {'identifier': 'py05_names'}
+[0.000808] (-) JobUnselected: {'identifier': 'py06_time'}
+[0.000819] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000829] (-) JobUnselected: {'identifier': 'tutorails_plumbing'}
+[0.000842] (cpp07_exercise) JobQueued: {'identifier': 'cpp07_exercise', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/lrm/ws01_plumbing/install/base_interfaces_demo'), ('turtlesim', '/home/lrm/ws01_plumbing/install/turtlesim')])}
+[0.000865] (cpp07_exercise) JobStarted: {'identifier': 'cpp07_exercise'}
+[0.015453] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'cmake'}
+[0.016080] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'build'}
+[0.017072] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lrm/ws01_plumbing/build/cpp07_exercise', '--', '-j16', '-l16'], 'cwd': '/home/lrm/ws01_plumbing/build/cpp07_exercise', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lrm'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lrm/ws01_plumbing/install/turtlesim/lib:/home/lrm/ws01_plumbing/install/base_interfaces_demo/lib:/home/lrm/ws00_helloworld/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lrm'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1591'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1926'), ('BUNDLED_DEBUGPY_PATH', '/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3032'), ('COLCON_PREFIX_PATH', '/home/lrm/ws01_plumbing/install:/home/lrm/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lrm'), ('JOURNAL_STREAM', '8:21509'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lrm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/lrm/.local/bin:/opt/ros/humble/bin:/home/lrm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lrm-Lenovo-Legion-R9000X2021R:@/tmp/.ICE-unix/1899,unix/lrm-Lenovo-Legion-R9000X2021R:/tmp/.ICE-unix/1899'), ('INVOCATION_ID', '4b65d3ba14854a5f9ab81e618c61a218'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0fa11d47707f9c0e.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/lrm/.config/Code/User/workspaceStorage/ab098c9f6a670ab9e4dc1c4b5e2cccef/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4e7e390f9c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lrm/ws01_plumbing/install/cpp07_exercise:/home/lrm/ws01_plumbing/install/turtlesim:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws01_plumbing/install/cpp06_time:/home/lrm/ws01_plumbing/install/cpp05_names:/home/lrm/ws01_plumbing/install/cpp04_param:/home/lrm/ws01_plumbing/install/cpp03_action:/home/lrm/ws01_plumbing/install/cpp02_service:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lrm/ws01_plumbing/build/cpp07_exercise'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages:/home/lrm/ws01_plumbing/install/py06_time/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py05_names/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/home/lrm/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lrm/ws01_plumbing/install/turtlesim:/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws01_plumbing/install/cpp07_exercise:/home/lrm/ws01_plumbing/install/cpp06_time:/home/lrm/ws01_plumbing/install/cpp05_names:/home/lrm/ws01_plumbing/install/cpp04_param:/home/lrm/ws01_plumbing/install/cpp03_action:/home/lrm/ws01_plumbing/install/cpp02_service:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble')]), 'shell': False}
+[0.063807] (cpp07_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer04_action_server\x1b[0m\n'}
+[0.064190] (cpp07_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer05_action_client\x1b[0m\n'}
+[0.080988] (cpp07_exercise) StdoutLine: {'line': b'[ 60%] Built target exer03_client\n'}
+[0.081296] (cpp07_exercise) StdoutLine: {'line': b'[ 60%] Built target exer02_server\n'}
+[0.081538] (cpp07_exercise) StdoutLine: {'line': b'[ 60%] Built target exer01_pub_sub\n'}
+[0.087369] (cpp07_exercise) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o\x1b[0m\n'}
+[0.087603] (cpp07_exercise) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/exer05_action_client.dir/src/exer05_action_client.cpp.o\x1b[0m\n'}
+[0.099832] (-) TimerEvent: {}
+[0.200305] (-) TimerEvent: {}
+[0.300663] (-) TimerEvent: {}
+[0.401072] (-) TimerEvent: {}
+[0.501524] (-) TimerEvent: {}
+[0.602030] (-) TimerEvent: {}
+[0.702375] (-) TimerEvent: {}
+[0.802734] (-) TimerEvent: {}
+[0.903156] (-) TimerEvent: {}
+[1.003537] (-) TimerEvent: {}
+[1.103867] (-) TimerEvent: {}
+[1.204198] (-) TimerEvent: {}
+[1.304608] (-) TimerEvent: {}
+[1.404879] (-) TimerEvent: {}
+[1.505153] (-) TimerEvent: {}
+[1.605440] (-) TimerEvent: {}
+[1.705737] (-) TimerEvent: {}
+[1.806193] (-) TimerEvent: {}
+[1.906850] (-) TimerEvent: {}
+[2.007512] (-) TimerEvent: {}
+[2.107931] (-) TimerEvent: {}
+[2.208200] (-) TimerEvent: {}
+[2.308559] (-) TimerEvent: {}
+[2.408890] (-) TimerEvent: {}
+[2.509248] (-) TimerEvent: {}
+[2.609609] (-) TimerEvent: {}
+[2.710158] (-) TimerEvent: {}
+[2.810705] (-) TimerEvent: {}
+[2.911018] (-) TimerEvent: {}
+[3.011413] (-) TimerEvent: {}
+[3.111970] (-) TimerEvent: {}
+[3.212576] (-) TimerEvent: {}
+[3.312919] (-) TimerEvent: {}
+[3.413402] (-) TimerEvent: {}
+[3.513945] (-) TimerEvent: {}
+[3.614247] (-) TimerEvent: {}
+[3.714774] (-) TimerEvent: {}
+[3.815116] (-) TimerEvent: {}
+[3.896099] (cpp07_exercise) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable exer05_action_client\x1b[0m\n'}
+[3.915204] (-) TimerEvent: {}
+[4.015698] (-) TimerEvent: {}
+[4.104154] (cpp07_exercise) StdoutLine: {'line': b'[ 90%] Built target exer05_action_client\n'}
+[4.115774] (-) TimerEvent: {}
+[4.216092] (-) TimerEvent: {}
+[4.316589] (-) TimerEvent: {}
+[4.417182] (-) TimerEvent: {}
+[4.517561] (-) TimerEvent: {}
+[4.617856] (-) TimerEvent: {}
+[4.718288] (-) TimerEvent: {}
+[4.818962] (-) TimerEvent: {}
+[4.919499] (-) TimerEvent: {}
+[5.019904] (-) TimerEvent: {}
+[5.120199] (-) TimerEvent: {}
+[5.220459] (-) TimerEvent: {}
+[5.320764] (-) TimerEvent: {}
+[5.421076] (-) TimerEvent: {}
+[5.521552] (-) TimerEvent: {}
+[5.621928] (-) TimerEvent: {}
+[5.722412] (-) TimerEvent: {}
+[5.822676] (-) TimerEvent: {}
+[5.922960] (-) TimerEvent: {}
+[6.023246] (-) TimerEvent: {}
+[6.123520] (-) TimerEvent: {}
+[6.223768] (-) TimerEvent: {}
+[6.324025] (-) TimerEvent: {}
+[6.424277] (-) TimerEvent: {}
+[6.524553] (-) TimerEvent: {}
+[6.624799] (-) TimerEvent: {}
+[6.725053] (-) TimerEvent: {}
+[6.825312] (-) TimerEvent: {}
+[6.925584] (-) TimerEvent: {}
+[7.025871] (-) TimerEvent: {}
+[7.126124] (-) TimerEvent: {}
+[7.226430] (-) TimerEvent: {}
+[7.326801] (-) TimerEvent: {}
+[7.427205] (-) TimerEvent: {}
+[7.527436] (-) TimerEvent: {}
+[7.627692] (-) TimerEvent: {}
+[7.727950] (-) TimerEvent: {}
+[7.828216] (-) TimerEvent: {}
+[7.928508] (-) TimerEvent: {}
+[8.028776] (-) TimerEvent: {}
+[8.129047] (-) TimerEvent: {}
+[8.229435] (-) TimerEvent: {}
+[8.329870] (-) TimerEvent: {}
+[8.430249] (-) TimerEvent: {}
+[8.530629] (-) TimerEvent: {}
+[8.600433] (cpp07_exercise) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable exer04_action_server\x1b[0m\n'}
+[8.630711] (-) TimerEvent: {}
+[8.731050] (-) TimerEvent: {}
+[8.831512] (-) TimerEvent: {}
+[8.931913] (-) TimerEvent: {}
+[9.025414] (cpp07_exercise) StdoutLine: {'line': b'[100%] Built target exer04_action_server\n'}
+[9.032069] (-) TimerEvent: {}
+[9.042602] (cpp07_exercise) CommandEnded: {'returncode': 0}
+[9.043323] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'install'}
+[9.055042] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lrm/ws01_plumbing/build/cpp07_exercise'], 'cwd': '/home/lrm/ws01_plumbing/build/cpp07_exercise', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lrm'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lrm/ws01_plumbing/install/turtlesim/lib:/home/lrm/ws01_plumbing/install/base_interfaces_demo/lib:/home/lrm/ws00_helloworld/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lrm'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1591'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1926'), ('BUNDLED_DEBUGPY_PATH', '/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3032'), ('COLCON_PREFIX_PATH', '/home/lrm/ws01_plumbing/install:/home/lrm/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lrm'), ('JOURNAL_STREAM', '8:21509'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lrm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/lrm/.local/bin:/opt/ros/humble/bin:/home/lrm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lrm-Lenovo-Legion-R9000X2021R:@/tmp/.ICE-unix/1899,unix/lrm-Lenovo-Legion-R9000X2021R:/tmp/.ICE-unix/1899'), ('INVOCATION_ID', '4b65d3ba14854a5f9ab81e618c61a218'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lrm/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0fa11d47707f9c0e.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/lrm/.config/Code/User/workspaceStorage/ab098c9f6a670ab9e4dc1c4b5e2cccef/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4e7e390f9c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lrm/ws01_plumbing/install/cpp07_exercise:/home/lrm/ws01_plumbing/install/turtlesim:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws01_plumbing/install/cpp06_time:/home/lrm/ws01_plumbing/install/cpp05_names:/home/lrm/ws01_plumbing/install/cpp04_param:/home/lrm/ws01_plumbing/install/cpp03_action:/home/lrm/ws01_plumbing/install/cpp02_service:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lrm/ws01_plumbing/build/cpp07_exercise'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lrm/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages:/home/lrm/ws01_plumbing/install/py06_time/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py05_names/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/lrm/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/home/lrm/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lrm/ws01_plumbing/install/turtlesim:/home/lrm/ws01_plumbing/install/base_interfaces_demo:/home/lrm/ws01_plumbing/install/cpp07_exercise:/home/lrm/ws01_plumbing/install/cpp06_time:/home/lrm/ws01_plumbing/install/cpp05_names:/home/lrm/ws01_plumbing/install/cpp04_param:/home/lrm/ws01_plumbing/install/cpp03_action:/home/lrm/ws01_plumbing/install/cpp02_service:/home/lrm/ws01_plumbing/install/cpp01_topic:/home/lrm/ws00_helloworld/install/turtlesim:/home/lrm/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lrm/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lrm/ws01_plumbing/install/py06_time:/home/lrm/ws01_plumbing/install/py05_names:/home/lrm/ws01_plumbing/install/py04_param:/home/lrm/ws01_plumbing/install/py03_action:/home/lrm/ws01_plumbing/install/py02_service:/home/lrm/ws01_plumbing/install/py01_topic:/home/lrm/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble')]), 'shell': False}
+[9.064898] (cpp07_exercise) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.065129] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub\n'}
+[9.065304] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer02_server\n'}
+[9.065586] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer03_client\n'}
+[9.065757] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer04_action_server\n'}
+[9.070933] (cpp07_exercise) StdoutLine: {'line': b'-- Set runtime path of "/home/lrm/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer04_action_server" to ""\n'}
+[9.071194] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer05_action_client\n'}
+[9.072215] (cpp07_exercise) StdoutLine: {'line': b'-- Set runtime path of "/home/lrm/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer05_action_client" to ""\n'}
+[9.072363] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch\n'}
+[9.072463] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer02_server_launch.py\n'}
+[9.072542] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py\n'}
+[9.072604] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer04_server_launch.py\n'}
+[9.072662] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer03_client_launch.py\n'}
+[9.072719] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer05_client_client_launch.py\n'}
+[9.072777] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise\n'}
+[9.072866] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise\n'}
+[9.072925] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh\n'}
+[9.073007] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv\n'}
+[9.073078] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh\n'}
+[9.073139] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv\n'}
+[9.073197] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash\n'}
+[9.073249] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh\n'}
+[9.073326] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh\n'}
+[9.073386] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv\n'}
+[9.073449] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.dsv\n'}
+[9.073531] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise\n'}
+[9.073585] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake\n'}
+[9.073640] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake\n'}
+[9.073703] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/lrm/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.xml\n'}
+[9.075692] (cpp07_exercise) CommandEnded: {'returncode': 0}
+[9.096414] (cpp07_exercise) JobEnded: {'identifier': 'cpp07_exercise', 'rc': 0}
+[9.097016] (-) EventReactorShutdown: {}

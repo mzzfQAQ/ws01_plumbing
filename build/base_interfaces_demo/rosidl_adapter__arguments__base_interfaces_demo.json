@@ -4,6 +4,7 @@
     "/home/lrm/ws01_plumbing/src/base_interfaces_demo:msg/Student.msg",
     "/home/lrm/ws01_plumbing/src/base_interfaces_demo:srv/AddInts.srv",
     "/home/lrm/ws01_plumbing/src/base_interfaces_demo:srv/Distance.srv",
-    "/home/lrm/ws01_plumbing/src/base_interfaces_demo:action/Progress.action"
+    "/home/lrm/ws01_plumbing/src/base_interfaces_demo:action/Progress.action",
+    "/home/lrm/ws01_plumbing/src/base_interfaces_demo:action/Nav.action"
   ]
 }

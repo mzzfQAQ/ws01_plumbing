@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f7fbf182776cfb189c77.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp07_exercise",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp07_exercise_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp07_exercise_uninstall-9883cacd106ee66304ec.json",
+					"name" : "cpp07_exercise_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer01_pub_sub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer01_pub_sub-c9f6a493dc2cd1d41505.json",
+					"name" : "exer01_pub_sub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer02_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer02_server-79dac8f053876288bab8.json",
+					"name" : "exer02_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer03_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer03_client-9b779cf80ad2e6ad0205.json",
+					"name" : "exer03_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer04_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer04_action_server-02508f6caba4e07d8aca.json",
+					"name" : "exer04_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer05_action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer05_action_client-a9eb530f1bc8bafdbe60.json",
+					"name" : "exer05_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0305247cbd09dc30a373.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lrm/ws01_plumbing/build/cpp07_exercise",
+		"source" : "/home/lrm/ws01_plumbing/src/cpp07_exercise"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

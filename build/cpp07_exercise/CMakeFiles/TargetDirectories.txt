@@ -3,6 +3,8 @@
 /home/lrm/ws01_plumbing/build/cpp07_exercise/CMakeFiles/exer01_pub_sub.dir
 /home/lrm/ws01_plumbing/build/cpp07_exercise/CMakeFiles/exer02_server.dir
 /home/lrm/ws01_plumbing/build/cpp07_exercise/CMakeFiles/exer03_client.dir
+/home/lrm/ws01_plumbing/build/cpp07_exercise/CMakeFiles/exer04_action_server.dir
+/home/lrm/ws01_plumbing/build/cpp07_exercise/CMakeFiles/exer05_action_client.dir
 /home/lrm/ws01_plumbing/build/cpp07_exercise/CMakeFiles/test.dir
 /home/lrm/ws01_plumbing/build/cpp07_exercise/CMakeFiles/edit_cache.dir
 /home/lrm/ws01_plumbing/build/cpp07_exercise/CMakeFiles/rebuild_cache.dir
